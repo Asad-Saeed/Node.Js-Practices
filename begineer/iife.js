@@ -7,3 +7,9 @@ console.log(message,superHero)
     const superHero="Superman";
     console.log(message,superHero)
     })("Hey");
+
+    // Module Wrapper with 5 parameter
+    // (function(exports,module,require,__filename,__dirname){
+    //     const superHero="Superman";
+    //     console.log(message,superHero)
+    //     });
