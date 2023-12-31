@@ -23,11 +23,24 @@
 // console.log(newSuperHero.getName())
 
 // Use Module from class export
-const SuperHero = require("./super-hero");
-const batman=new SuperHero("Batman");
-console.log(batman.getName());
-batman.setName("Bruce Wayne");
-console.log(batman.getName());
+// const SuperHero = require("./super-hero");
+// const batman=new SuperHero("Batman");
+// console.log(batman.getName());
+// batman.setName("Bruce Wayne");
+// console.log(batman.getName());
 
-const superman=new SuperHero("Superman");
-console.log(superman.getName())
+// const superman=new SuperHero("Superman");
+// console.log(superman.getName())
+
+
+// IMPORT AND EXPORT PATTRENS
+// 1
+// const add= require("./math")
+// console.log(add(1,2))
+// 2
+// const add= require("./math")
+// console.log(add(1,2))
+// 3
+const math= require("./math")
+console.log(math.add(1,2))
+console.log(math.sub(4,2))
