@@ -41,6 +41,12 @@
 // const add= require("./math")
 // console.log(add(1,2))
 // 3
-const math= require("./math")
-console.log(math.add(1,2))
-console.log(math.sub(4,2))
+// const math= require("./math")
+// console.log(math.add(1,2))
+// console.log(math.sub(4,2))
+
+
+
+// ESM OR es MODULES
+// file extention is .mjs not js
+// main.mjs
