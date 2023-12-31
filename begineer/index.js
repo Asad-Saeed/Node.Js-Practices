@@ -50,3 +50,10 @@
 // ESM OR es MODULES
 // file extention is .mjs not js
 // main.mjs
+
+
+// IMPORTING JSON AND WATCH MODE
+// require parse json data to javaScript object
+const data=require("./data.json")
+
+console.log("data",data?.name)
