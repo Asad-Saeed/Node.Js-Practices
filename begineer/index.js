@@ -55,5 +55,11 @@
 // IMPORTING JSON AND WATCH MODE
 // require parse json data to javaScript object
 const data=require("./data.json")
-
+// we cannot use import for json 'coz of .mjs extention
 console.log("data",data?.name)
+
+
+// WATCH MODE 
+// used to keep file in running state
+// node --watch index.js
+console.log("asad")
