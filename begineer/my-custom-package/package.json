@@ -1,0 +1,15 @@
+{
+  "name": "asad-greet",
+  "version": "1.0.0",
+  "description": "welcome to Asad Tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "greet",
+    "asadtech"
+  ],
+  "author": "Asad Saeed",
+  "license": "ISC"
+}
